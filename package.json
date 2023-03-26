@@ -10,7 +10,7 @@
     "wp": "webpack --mode=development --watch",
     "test": "jest",
     "coverage": "jest --coverage",
-    "start": "sirv public --port process.env.PORT || 5000",
+    "start": "sirv  public --host --port process.env.PORT || 5000 ",
     "lint": "eslint . --ext .ts"
   },
   "author": "Bernardo Ferrari",
